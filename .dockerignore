@@ -1,6 +1,0 @@
-node_modules
-api/node_modules
-dashboard/node_modules
-.git
-.env
-api/.env
