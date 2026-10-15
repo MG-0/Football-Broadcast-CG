@@ -239,9 +239,13 @@ app.use((req, res) => {
 // SERVER IS CONNECTIONS----------
 const PORT = process.env.PORT || 5000;
 
-server.listen(PORT, "0.0.0.0", () => {
-  const ip = getLocalIP();
+if (!process.env.VERCEL) {
+  server.listen(PORT, "0.0.0.0", () => {
+    const ip = getLocalIP();
 
-  console.log(`🚀 SERVER IS RUNNING ON PORT ${PORT}`);
-  console.log(`📱 Local Network: http://${ip}:${PORT}`);
-});
+    console.log(`🚀 SERVER IS RUNNING ON PORT ${PORT}`);
+    console.log(`📱 Local Network: http://${ip}:${PORT}`);
+  });
+}
+
+module.exports = app;

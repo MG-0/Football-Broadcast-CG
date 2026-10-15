@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 
 // connect socket
 const socket = io();
+const bc = typeof window !== "undefined" && window.BroadcastChannel ? new BroadcastChannel("football_cg_channel") : null;
 
 // match console hook
 export default function useMatchConsole() {
@@ -154,6 +155,9 @@ export default function useMatchConsole() {
     }
 
     socket.emit(eventName, finalPayload);
+    if (bc) {
+      bc.postMessage({ event: eventName, data: finalPayload });
+    }
     if (!silent) {
       toast.info(
         `Graphics overlay '${key}' set to ${value ? "LIVE" : "OFFLINE"}`,
