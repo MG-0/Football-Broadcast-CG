@@ -1,0 +1,1391 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin",
+      "password": "123123"
+    }
+  ],
+
+
+
+  "teams": [
+    {
+      "id": "07e6224d-b996-4017-878f-90e229bbdc83",
+      "name": "Barcelona",
+      "shortName": "FCB",
+      "coachName": "Flek",
+      "primaryColor": "#dabe0b",
+      "secondaryColor": "#0f0cbb",
+      "imageUrl": "1785260728884-36131.png",
+      "createdAt": "2026-07-28T17:45:28.895Z",
+      "updatedAt": "2026-08-14T14:48:32.815Z",
+      "players": [
+        {
+          "id": "4cc90d36-5d2b-4f01-8d15-d908815e52a5",
+          "name": "ter Stegen",
+          "number": 1,
+          "position": "GK"
+        },
+        {
+          "id": "332793b1-f350-4726-a7f6-eb14819dfb1b",
+          "name": "Jules Koundé",
+          "number": 2,
+          "position": "RB"
+        },
+        {
+          "id": "a7e27c17-ff99-4822-9cc3-155aedc35c32",
+          "name": "Ronald Araújo",
+          "number": 3,
+          "position": "CB"
+        },
+        {
+          "id": "270ed667-99f7-490c-8b9c-c2f987efd4bf",
+          "name": "Pau Cubarsí",
+          "number": 4,
+          "position": "CB"
+        },
+        {
+          "id": "e3ca3461-b344-4173-8ce6-8fe305ead5bc",
+          "name": "Alejandro Balde",
+          "number": 5,
+          "position": "LB"
+        },
+        {
+          "id": "66d9bfbc-5cc1-4761-bfd0-a7ac87f51d59",
+          "name": "Frenkie de Jong",
+          "number": 21,
+          "position": "CM"
+        },
+        {
+          "id": "c043e219-a047-4202-8be9-256744244653",
+          "name": "Pedri",
+          "number": 8,
+          "position": "CM"
+        },
+        {
+          "id": "c462377c-d015-44f6-a7ec-599b3aa661ab",
+          "name": "Dani Olmo",
+          "number": 6,
+          "position": "CM"
+        },
+        {
+          "id": "94b9fda1-da77-44c7-9eeb-d7ebf58fa2fb",
+          "name": "Lamine Yamal",
+          "number": 10,
+          "position": "RW"
+        },
+        {
+          "id": "abaae3b3-0160-492c-9e63-3d4f55608323",
+          "name": "Raphinha",
+          "number": 11,
+          "position": "LW"
+        },
+        {
+          "id": "e8ea4b29-d0a1-4f7f-8649-9ddb43220526",
+          "name": "Robert Lewandowski",
+          "number": 9,
+          "position": "ST"
+        },
+        {
+          "id": "71140b90-40fd-4be1-9188-747ee9cde1b9",
+          "name": "Ferran Torres",
+          "number": 12,
+          "position": "ST"
+        },
+        {
+          "id": "fe93cf39-4ec1-4dd7-b05d-399819cf9a68",
+          "name": "Mahmoud Gamal",
+          "number": 17,
+          "position": "AM"
+        },
+        {
+          "id": "d5c60b07-4647-4a52-a246-7d445b16da38",
+          "name": "Gemy Alson",
+          "number": 32,
+          "position": "AM"
+        },
+        {
+          "id": "temp_1785927851181_m69zbz2l0",
+          "name": "Hamdy Mohamed",
+          "number": "38",
+          "position": "GK"
+        }
+      ]
+    },
+    {
+      "id": "f55f4c29-0979-49f3-a70f-aebcdfaf2f89",
+      "name": "Real Madrid",
+      "shortName": "RMA",
+      "coachName": "Alnso",
+      "primaryColor": "#dbdbdb",
+      "secondaryColor": "#c71ddd",
+      "imageUrl": "1785262141312-617184.png",
+      "createdAt": "2026-07-28T18:09:01.321Z",
+      "updatedAt": "2026-08-14T14:48:32.830Z",
+      "players": [
+        {
+          "id": "6acb6aa3-fa71-4eca-aee8-8bb198bd2bcc",
+          "name": "Thibaut Courtois",
+          "number": 1,
+          "position": "GK"
+        },
+        {
+          "id": "3289965c-7bfc-415e-9b05-e42e9ad3fc7b",
+          "name": "Dani Carvajal",
+          "number": 2,
+          "position": "RB"
+        },
+        {
+          "id": "f365175b-1885-4ce0-ac97-2836fdeeef10",
+          "name": "Antonio Rüdiger",
+          "number": 22,
+          "position": "CB"
+        },
+        {
+          "id": "5b165b77-54d7-49e5-81c0-297fabedd10e",
+          "name": "Éder Militão",
+          "number": 3,
+          "position": "CB"
+        },
+        {
+          "id": "cedf7083-c132-4571-9f20-45399300a97d",
+          "name": "Fran García",
+          "number": 20,
+          "position": "LB"
+        },
+        {
+          "id": "a09b71ed-ab8e-4da9-aeaf-47ed7cf1a44b",
+          "name": "Aurélien Tchouaméni",
+          "number": 14,
+          "position": "DM"
+        },
+        {
+          "id": "211f4c40-01fb-4abb-8444-76534537f463",
+          "name": "Federico Valverde",
+          "number": 8,
+          "position": "CM"
+        },
+        {
+          "id": "598d8d21-e646-4b16-bb66-9145c971e4e0",
+          "name": "Jude Bellingham",
+          "number": 5,
+          "position": "AM"
+        },
+        {
+          "id": "f52923f1-05cc-4c93-a2bc-0c7a66cdc66c",
+          "name": "Rodrygo",
+          "number": 11,
+          "position": "LW"
+        },
+        {
+          "id": "32785e1d-eaee-47fa-b015-069bbd5ca48a",
+          "name": "Vinícius Júnior",
+          "number": 7,
+          "position": "RW"
+        },
+        {
+          "id": "34678ce6-f9ed-477e-9ec3-8b24bbd17a7d",
+          "name": "Kylian Mbappé",
+          "number": 9,
+          "position": "ST"
+        },
+        {
+          "id": "c6dc097c-0673-4a6c-bd62-2656ecab26aa",
+          "name": "Brahim Díaz",
+          "number": 21,
+          "position": "AM"
+        },
+        {
+          "id": "71d43a93-ab79-4aa6-9d1e-bb075adfb870",
+          "name": "Arda Güler",
+          "number": 15,
+          "position": "AM"
+        },
+        {
+          "id": "a14a982a-3a09-402f-838e-04733f696635",
+          "name": "Eduardo Camavinga",
+          "number": 6,
+          "position": "CM"
+        }
+      ]
+    },
+    {
+      "id": "3575df51-6bbf-46f4-9cb0-3c2830dbd77d",
+      "name": "Liverpool",
+      "shortName": "LIV",
+      "coachName": "Klop",
+      "primaryColor": "#e60505",
+      "secondaryColor": "#fafafa",
+      "imageUrl": "1785275394691-494401.png",
+      "createdAt": "2026-07-28T21:49:54.697Z",
+      "updatedAt": "2026-07-28T21:49:54.697Z"
+    },
+    {
+      "id": "bd56bde2-ccab-4fab-9896-f0652513ef4f",
+      "name": "Manchester City",
+      "shortName": "Mac",
+      "coachName": "pipe",
+      "primaryColor": "#2fcfda",
+      "secondaryColor": "#cc0bda",
+      "imageUrl": "1785350586270-57135.png",
+      "createdAt": "2026-07-29T18:43:06.285Z",
+      "updatedAt": "2026-07-29T18:43:06.285Z"
+    },
+    {
+      "id": "6079bd8e-f857-4a60-83b5-a033f214c95a",
+      "name": "Egypt",
+      "shortName": "EGY",
+      "coachName": "Hossam Hassan",
+      "primaryColor": "#f20202",
+      "secondaryColor": "#ffffff",
+      "imageUrl": "1785365477595-887359.png",
+      "createdAt": "2026-07-29T22:51:17.602Z",
+      "updatedAt": "2026-07-29T22:51:17.602Z"
+    },
+    {
+      "id": "6cfea1e5-a88c-43df-9459-13c0108f0c3e",
+      "name": "Spain",
+      "shortName": "SPA",
+      "coachName": "Luis Devlonti",
+      "primaryColor": "#f06000",
+      "secondaryColor": "#ffffff",
+      "imageUrl": "1785365613973-378901.png",
+      "createdAt": "2026-07-29T22:53:33.985Z",
+      "updatedAt": "2026-07-29T22:53:33.985Z"
+    },
+    {
+      "id": "2d40ffa6-c123-4359-b478-d006b500a239",
+      "name": "AS MIlan",
+      "shortName": "Asm",
+      "coachName": "Kaka",
+      "primaryColor": "#ff0000",
+      "secondaryColor": "#ffffff",
+      "imageUrl": "1785780271916-591701.jpg",
+      "createdAt": "2026-08-03T18:04:31.922Z",
+      "updatedAt": "2026-08-05T17:58:31.897Z",
+      "players": [
+        {
+          "id": "temp_1785952066967_qx0my5lyp",
+          "name": "Mike Maignan",
+          "number": "1",
+          "position": "GK"
+        },
+        {
+          "id": "temp_1785952091984_ybjj71m4u",
+          "name": "Fikayo Tomori",
+          "number": "3",
+          "position": "CB"
+        },
+        {
+          "id": "temp_1785952124080_kgxf7pg8p",
+          "name": "Malick Thiaw",
+          "number": "5",
+          "position": "LB"
+        },
+        {
+          "id": "temp_1785952153434_57g1tsxlm",
+          "name": "Álex Jiménez",
+          "number": "6",
+          "position": "RB"
+        },
+        {
+          "id": "temp_1785952173263_813t6gj5j",
+          "name": "Youssouf Fofana",
+          "number": "7",
+          "position": "DM"
+        },
+        {
+          "id": "temp_1785952191680_b2kkwt61n",
+          "name": "Ruben Loftus-Cheek",
+          "number": "10",
+          "position": "ST"
+        },
+        {
+          "id": "temp_1785952205856_o7xt7gemf",
+          "name": "Christian Pulisic",
+          "number": "9",
+          "position": "RW"
+        },
+        {
+          "id": "temp_1785952217889_5wqcp7lwe",
+          "name": "Rafael Leão",
+          "number": "12",
+          "position": "LW"
+        },
+        {
+          "id": "temp_1785952262433_38x16vfdx",
+          "name": "Santiago Giménez",
+          "number": "14",
+          "position": "ST"
+        },
+        {
+          "id": "temp_1785952305282_kf3ig6i4v",
+          "name": "Samuel Chukwueze",
+          "number": "10",
+          "position": "AM"
+        },
+        {
+          "id": "temp_1785952368504_5kltjhnu7",
+          "name": "Luka Modrić",
+          "number": "14",
+          "position": "AM"
+        },
+        {
+          "id": "temp_1785952384384_vxloghwi0",
+          "name": "Pervis Estupiñán",
+          "number": "15",
+          "position": "CM"
+        },
+        {
+          "id": "temp_1785952402025_t7iv5mz11",
+          "name": "Strahinja Pavlović",
+          "number": "16",
+          "position": "DM"
+        },
+        {
+          "id": "temp_1785952417665_jq3a8mzem",
+          "name": "Yunus Musah",
+          "number": "17",
+          "position": "AM"
+        },
+        {
+          "id": "temp_1785952433136_a26sn5ypq",
+          "name": "Noah Okafor",
+          "number": "19",
+          "position": "ST"
+        }
+      ]
+    },
+    {
+      "id": "90fbe5d9-436b-4da3-965d-bf4e9c0fe70a",
+      "name": "Inter Milan",
+      "shortName": "itm",
+      "coachName": "perlo",
+      "primaryColor": "#0d09fb",
+      "secondaryColor": "#ededed",
+      "imageUrl": "1785780686592-923050.png",
+      "createdAt": "2026-08-03T18:11:26.597Z",
+      "updatedAt": "2026-08-05T17:58:31.881Z",
+      "players": [
+        {
+          "id": "temp_1785951803191_lj9svswc7",
+          "name": "Yann Sommer",
+          "number": "1",
+          "position": "GK"
+        },
+        {
+          "id": "temp_1785951858032_g1u35uykr",
+          "name": "Benjamin Pavard",
+          "number": "2",
+          "position": "CB"
+        },
+        {
+          "id": "temp_1785951903575_59xuqui1r",
+          "name": "Francesco Acerbi",
+          "number": "2",
+          "position": "CB"
+        },
+        {
+          "id": "temp_1785951918568_q554bae2u",
+          "name": "Alessandro Bastoni",
+          "number": "4",
+          "position": "LB"
+        },
+        {
+          "id": "temp_1785951941215_yr0chtwdp",
+          "name": "Denzel Dumfries",
+          "number": "5",
+          "position": "RB"
+        },
+        {
+          "id": "temp_1785951964720_9ir0lxw5q",
+          "name": "Nicolò Barella",
+          "number": "6",
+          "position": "RWB"
+        },
+        {
+          "id": "temp_1785951979639_47vr7vv94",
+          "name": "Hakan Çalhanoğlu",
+          "number": "7",
+          "position": "DM"
+        },
+        {
+          "id": "temp_1785951996328_y5u3cy4k3",
+          "name": "Henrikh Mkhitaryan",
+          "number": "8",
+          "position": "CM"
+        },
+        {
+          "id": "temp_1785952012879_7zt5xltt0",
+          "name": "Federico Dimarco",
+          "number": "9",
+          "position": "AM"
+        },
+        {
+          "id": "temp_1785952028168_wtn77xww0",
+          "name": "Lautaro Martínez",
+          "number": "10",
+          "position": "ST"
+        },
+        {
+          "id": "temp_1785952043391_4v1wxrzqw",
+          "name": "Marcus Thuram",
+          "number": "11",
+          "position": "RW"
+        },
+        {
+          "id": "temp_1785952498904_bp6yy5tp0",
+          "name": "Josep Martínez",
+          "number": "20",
+          "position": "RW"
+        },
+        {
+          "id": "temp_1785952513000_5gw6aqdhu",
+          "name": "Carlos Augusto",
+          "number": "23",
+          "position": "RW"
+        },
+        {
+          "id": "temp_1785952525737_wmihpjbc3",
+          "name": "Matteo Darmian",
+          "number": "24",
+          "position": "RW"
+        },
+        {
+          "id": "temp_1785952541704_odwcgvhzq",
+          "name": "Mehdi Taremi",
+          "number": "27",
+          "position": "CM"
+        }
+      ]
+    },
+    {
+      "id": "778518f0-720d-4c2c-b49e-68fda9aac81e",
+      "name": "Chelsea",
+      "shortName": "Chs",
+      "coachName": "Mahmoud",
+      "primaryColor": "#eac71a",
+      "secondaryColor": "#0052d4",
+      "imageUrl": "1785792944194-618619.png",
+      "createdAt": "2026-08-03T21:35:44.214Z",
+      "updatedAt": "2026-08-03T21:35:44.214Z"
+    },
+    {
+      "id": "53382831-3327-4e1e-b72b-a6ae03dc690b",
+      "name": "AlAhly",
+      "shortName": "Ahl",
+      "coachName": "Hosam Elbadry",
+      "primaryColor": "#f41010",
+      "secondaryColor": "#000000",
+      "imageUrl": "1785951019551-689423.jpg",
+      "createdAt": "2026-08-05T17:30:19.674Z",
+      "updatedAt": "2026-08-05T17:30:19.674Z"
+    },
+    {
+      "id": "6008942e-50af-4018-b14a-07c094a21727",
+      "name": "Zamalek",
+      "shortName": "Zam",
+      "coachName": "Keroush",
+      "primaryColor": "#edf2f1",
+      "secondaryColor": "#002d75",
+      "imageUrl": "1785951066347-925485.png",
+      "createdAt": "2026-08-05T17:31:06.352Z",
+      "updatedAt": "2026-08-05T17:31:06.352Z"
+    }
+  ],
+  "sponsors": [
+    {
+      "id": "5b8627ba-49b3-40f1-9214-d699b9f68aef",
+      "name": "Coca-Cola",
+      "logoUrl": "1785272950359-481389.jpg",
+      "createdAt": "2026-07-28T21:09:10.363Z",
+      "updatedAt": "2026-07-28T21:10:04.998Z"
+    },
+    {
+      "id": "255e8416-c92c-4dbe-b1d9-ac7711b2dedb",
+      "name": "Pepsi",
+      "logoUrl": "1785273081146-764428.png",
+      "createdAt": "2026-07-28T21:11:21.167Z",
+      "updatedAt": "2026-07-28T21:11:21.168Z"
+    },
+    {
+      "id": "a3b10e67-4ec9-4275-8845-c978d834b68a",
+      "name": "Sponsor",
+      "logoUrl": "1785275540131-77431.jpg",
+      "createdAt": "2026-07-28T21:52:20.138Z",
+      "updatedAt": "2026-07-28T21:52:20.138Z"
+    },
+    {
+      "id": "20b203b8-9042-4039-850e-1ab0314a6242",
+      "name": "Hyundai",
+      "logoUrl": "1785275947638-14876.jpg",
+      "createdAt": "2026-07-28T21:59:07.644Z",
+      "updatedAt": "2026-07-28T21:59:07.644Z"
+    },
+    {
+      "id": "2ff7af74-73d5-4f12-9c39-faa11249c83a",
+      "name": "Adidass",
+      "logoUrl": "1785781460879-340008.png",
+      "createdAt": "2026-08-03T18:24:20.888Z",
+      "updatedAt": "2026-08-03T18:24:31.314Z"
+    },
+    {
+      "id": "9d10dfd5-00c1-4dca-9b03-75467c5ab605",
+      "name": "Nike",
+      "logoUrl": "1785951437333-230355.png",
+      "createdAt": "2026-08-05T17:37:17.341Z",
+      "updatedAt": "2026-08-05T17:37:17.341Z"
+    },
+    {
+      "id": "c73a9799-eee9-4812-aa0c-6f8deb2b7ddb",
+      "name": "BMW",
+      "logoUrl": "1785951451544-786332.jpg",
+      "createdAt": "2026-08-05T17:37:31.550Z",
+      "updatedAt": "2026-08-05T17:37:31.550Z"
+    },
+    {
+      "id": "a45994ba-3a55-4c3c-ace2-7f04e7db8077",
+      "name": "Honda",
+      "logoUrl": "1785951500704-828875.png",
+      "createdAt": "2026-08-05T17:38:20.713Z",
+      "updatedAt": "2026-08-05T17:38:20.713Z"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "d81054fc-807b-4c85-8e67-33c0eba9fece",
+      "name": "UEFA Champions League",
+      "logoUrl": "1785272914385-477467.png",
+      "createdAt": "2026-07-28T21:08:34.395Z",
+      "updatedAt": "2026-07-28T21:08:34.396Z"
+    },
+    {
+      "id": "8dd444dc-0c9c-4081-a7ae-002e8e2ed3dd",
+      "name": "World Cup",
+      "logoUrl": "1785272931781-305122.jpg",
+      "createdAt": "2026-07-28T21:08:51.787Z",
+      "updatedAt": "2026-07-28T21:08:51.788Z"
+    },
+    {
+      "id": "1968249e-9f1b-48b7-bc6d-e8129b8acd1d",
+      "name": "Italian League",
+      "logoUrl": "1785275774348-599977.jpg",
+      "createdAt": "2026-07-28T21:56:14.356Z",
+      "updatedAt": "2026-07-28T21:56:14.356Z"
+    },
+    {
+      "id": "83efb384-fa1f-4462-9f56-9a9b85eae885",
+      "name": "German League",
+      "logoUrl": "1785275800011-741479.png",
+      "createdAt": "2026-07-28T21:56:40.020Z",
+      "updatedAt": "2026-07-28T21:56:40.021Z"
+    },
+    {
+      "id": "00913743-43a2-4b67-bdea-aa9501461605",
+      "name": "English Premier League",
+      "logoUrl": "1785275838633-7069.jpg",
+      "createdAt": "2026-07-28T21:57:18.641Z",
+      "updatedAt": "2026-07-28T21:57:18.642Z"
+    },
+    {
+      "id": "d624af4e-51a2-4d79-b79d-9e1c3dbf66e8",
+      "name": "Spanish League",
+      "logoUrl": "1785275856955-219153.png",
+      "createdAt": "2026-07-28T21:57:36.962Z",
+      "updatedAt": "2026-07-28T21:57:36.963Z"
+    },
+    {
+      "id": "db333f50-a3c0-44f5-ab2a-7d9b868c4d5a",
+      "name": "Europa League",
+      "logoUrl": "1785951415411-828942.jpg",
+      "createdAt": "2026-08-05T17:36:55.415Z",
+      "updatedAt": "2026-08-05T17:36:55.415Z"
+    }
+  ],
+  "matches": [
+    {
+      "id": "98ee5949-da82-4af2-854e-23708c77868a",
+      "homeTeamId": "07e6224d-b996-4017-878f-90e229bbdc83",
+      "awayTeamId": "f55f4c29-0979-49f3-a70f-aebcdfaf2f89",
+      "tournamentId": "d81054fc-807b-4c85-8e67-33c0eba9fece",
+      "sponsorIds": [
+        "5b8627ba-49b3-40f1-9214-d699b9f68aef",
+        "20b203b8-9042-4039-850e-1ab0314a6242"
+      ],
+      "matchDate": "2026-07-30T22:00",
+      "status": "pending",
+      "graphics": {
+        "startScreen": {
+          "xOffset": 90,
+          "yOffset": 0,
+          "scale": 1
+        },
+        "tournament": {
+          "xOffset": 20,
+          "yOffset": 0,
+          "scale": 1
+        },
+        "sponsors": {
+          "selectedSponsorIds": [
+            "20b203b8-9042-4039-850e-1ab0314a6242",
+            "5b8627ba-49b3-40f1-9214-d699b9f68aef"
+          ],
+          "xOffset": 100,
+          "yOffset": 110,
+          "scale": 1
+        },
+        "weather": {
+          "location": "Barcelona",
+          "temperature": 32,
+          "condition": "Sunny",
+          "humidity": 23,
+          "windSpeed": 23,
+          "windDirection": "NE",
+          "rainProbability": 0,
+          "pitchCondition": "Dry",
+          "xOffset": 282,
+          "yOffset": 180,
+          "scale": 1,
+          "isUpdate": false
+        },
+        "lineup": {
+          "home": {
+            "formation": "4-4-2",
+            "coachName": "Flek",
+            "starters": [
+              {
+                "id": "4cc90d36-5d2b-4f01-8d15-d908815e52a5",
+                "name": "ter Stegen",
+                "number": 1,
+                "position": "GK"
+              },
+              {
+                "id": "332793b1-f350-4726-a7f6-eb14819dfb1b",
+                "name": "Jules Koundé",
+                "number": 2,
+                "position": "RB"
+              },
+              {
+                "id": "a7e27c17-ff99-4822-9cc3-155aedc35c32",
+                "name": "Ronald Araújo",
+                "number": 3,
+                "position": "CB"
+              },
+              {
+                "id": "270ed667-99f7-490c-8b9c-c2f987efd4bf",
+                "name": "Pau Cubarsí",
+                "number": 4,
+                "position": "CB"
+              },
+              {
+                "id": "e3ca3461-b344-4173-8ce6-8fe305ead5bc",
+                "name": "Alejandro Balde",
+                "number": 5,
+                "position": "LB"
+              },
+              {
+                "id": "66d9bfbc-5cc1-4761-bfd0-a7ac87f51d59",
+                "name": "Frenkie de Jong",
+                "number": 21,
+                "position": "CM"
+              },
+              {
+                "id": "c043e219-a047-4202-8be9-256744244653",
+                "name": "Pedri",
+                "number": 8,
+                "position": "CM"
+              },
+              {
+                "id": "c462377c-d015-44f6-a7ec-599b3aa661ab",
+                "name": "Dani Olmo",
+                "number": 6,
+                "position": "CM"
+              },
+              {
+                "id": "94b9fda1-da77-44c7-9eeb-d7ebf58fa2fb",
+                "name": "Lamine Yamal",
+                "number": 10,
+                "position": "RW"
+              },
+              {
+                "id": "abaae3b3-0160-492c-9e63-3d4f55608323",
+                "name": "Raphinha",
+                "number": 11,
+                "position": "LW"
+              },
+              {
+                "id": "e8ea4b29-d0a1-4f7f-8649-9ddb43220526",
+                "name": "Robert Lewandowski",
+                "number": 9,
+                "position": "ST"
+              }
+            ],
+            "bench": [
+              {
+                "id": "71140b90-40fd-4be1-9188-747ee9cde1b9",
+                "name": "Ferran Torres",
+                "number": 12,
+                "position": "ST"
+              },
+              {
+                "id": "fe93cf39-4ec1-4dd7-b05d-399819cf9a68",
+                "name": "Mahmoud Gamal",
+                "number": 17,
+                "position": "AM"
+              },
+              {
+                "id": "d5c60b07-4647-4a52-a246-7d445b16da38",
+                "name": "Gemy Alson",
+                "number": 32,
+                "position": "AM"
+              },
+              {
+                "id": "temp_1785927851181_m69zbz2l0",
+                "name": "Hamdy Mohamed",
+                "number": "38",
+                "position": "GK"
+              }
+            ]
+          },
+          "away": {
+            "formation": "4-3-3",
+            "coachName": "Alnso",
+            "starters": [
+              {
+                "id": "6acb6aa3-fa71-4eca-aee8-8bb198bd2bcc",
+                "name": "Thibaut Courtois",
+                "number": 1,
+                "position": "GK"
+              },
+              {
+                "id": "3289965c-7bfc-415e-9b05-e42e9ad3fc7b",
+                "name": "Dani Carvajal",
+                "number": 2,
+                "position": "RB"
+              },
+              {
+                "id": "f365175b-1885-4ce0-ac97-2836fdeeef10",
+                "name": "Antonio Rüdiger",
+                "number": 22,
+                "position": "CB"
+              },
+              {
+                "id": "5b165b77-54d7-49e5-81c0-297fabedd10e",
+                "name": "Éder Militão",
+                "number": 3,
+                "position": "CB"
+              },
+              {
+                "id": "cedf7083-c132-4571-9f20-45399300a97d",
+                "name": "Fran García",
+                "number": 20,
+                "position": "LB"
+              },
+              {
+                "id": "a09b71ed-ab8e-4da9-aeaf-47ed7cf1a44b",
+                "name": "Aurélien Tchouaméni",
+                "number": 14,
+                "position": "DM"
+              },
+              {
+                "id": "211f4c40-01fb-4abb-8444-76534537f463",
+                "name": "Federico Valverde",
+                "number": 8,
+                "position": "CM"
+              },
+              {
+                "id": "598d8d21-e646-4b16-bb66-9145c971e4e0",
+                "name": "Jude Bellingham",
+                "number": 5,
+                "position": "AM"
+              },
+              {
+                "id": "f52923f1-05cc-4c93-a2bc-0c7a66cdc66c",
+                "name": "Rodrygo",
+                "number": 11,
+                "position": "LW"
+              },
+              {
+                "id": "32785e1d-eaee-47fa-b015-069bbd5ca48a",
+                "name": "Vinícius Júnior",
+                "number": 7,
+                "position": "RW"
+              },
+              {
+                "id": "34678ce6-f9ed-477e-9ec3-8b24bbd17a7d",
+                "name": "Kylian Mbappé",
+                "number": 9,
+                "position": "ST"
+              }
+            ],
+            "bench": [
+              {
+                "id": "c6dc097c-0673-4a6c-bd62-2656ecab26aa",
+                "name": "Brahim Díaz",
+                "number": 21,
+                "position": "AM"
+              },
+              {
+                "id": "71d43a93-ab79-4aa6-9d1e-bb075adfb870",
+                "name": "Arda Güler",
+                "number": 15,
+                "position": "AM"
+              },
+              {
+                "id": "a14a982a-3a09-402f-838e-04733f696635",
+                "name": "Eduardo Camavinga",
+                "number": 6,
+                "position": "CM"
+              }
+            ]
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "scale": 1
+        },
+        "scorebug": {
+          "homeScore": 0,
+          "awayScore": 0,
+          "minute": 0,
+          "second": 0,
+          "period": "1H",
+          "isRunning": false,
+          "xOffset": 0,
+          "yOffset": 0,
+          "scale": 1,
+          "addedTime": 0
+        },
+        "statistics": {
+          "period": "FULL TIME",
+          "stats": {
+            "goals": {
+              "home": 2,
+              "away": 2
+            },
+            "possession": {
+              "home": 60,
+              "away": 40
+            },
+            "shots": {
+              "home": 12,
+              "away": 2
+            },
+            "shotsOnTarget": {
+              "home": 11,
+              "away": 2
+            },
+            "corners": {
+              "home": 11,
+              "away": 2
+            },
+            "fouls": {
+              "home": 1,
+              "away": 3
+            },
+            "yellowCards": {
+              "home": 3,
+              "away": 1
+            },
+            "redCards": {
+              "home": 0,
+              "away": 0
+            },
+            "offsides": {
+              "home": 1,
+              "away": 1
+            },
+            "saves": {
+              "home": 4,
+              "away": 3
+            },
+            "passes": {
+              "home": 2,
+              "away": 2
+            }
+          },
+          "xOffset": 20,
+          "yOffset": 20,
+          "scale": 1,
+          "isUpdate": false
+        },
+        "qrCode": {
+          "titleQr": "Scan To Follow TKDS",
+          "subTitleQr": "Links TKDS",
+          "website": "https://tkdsmena.com/",
+          "instagram": "https://www.instagram.com/tkds_mena",
+          "facebook": "https://www.instagram.com/tkds_mena",
+          "youtube": "https://www.instagram.com/tkds_mena",
+          "x": "https://www.instagram.com/tkds_mena",
+          "yOffset": 0,
+          "xOffset": 0,
+          "scale": 1,
+          "qrCodeDataUrl": "data:image/png;base64,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"
+        },
+        "lowerThird": {
+          "title": "Barcelona",
+          "subtitle": "Marc-André ter Stegen, Iñaki Peña, Jules Koundé, Ronald Araújo, Pau Cubarsí, Iñigo Martínez, Alejandro Balde, Eric García, Frenkie de Jong, Pedri, Gavi, Dani Olmo, Fermín López, Lamine Yamal, Robert Lewandowski",
+          "badge": "Statistics ",
+          "layout": "left",
+          "themeMode": "home",
+          "customColor": "#0de7b1",
+          "yOffset": 50,
+          "xOffset": 0,
+          "scale": 1,
+          "speed": 1,
+          "resolvedColor": "#dabe0b"
+        },
+        "notifications": {
+          "type": "custom",
+          "yOffset": 50,
+          "xOffset": 0,
+          "scale": 1,
+          "subTeam": "home",
+          "subPlayerOutId": "",
+          "subPlayerInId": "",
+          "cardTeam": "home",
+          "cardPlayerId": "",
+          "cardType": "yellow",
+          "varTitle": "VAR CHECK",
+          "varDetail": "POSSIBLE PENALTY",
+          "penaltyTeam": "home",
+          "penaltyText": "PENALTY KICK",
+          "penaltyPlayerName": "",
+          "penaltyShots": [],
+          "offsideTeam": "home",
+          "offsidePlayerId": "",
+          "customPlayerName": "",
+          "customText": "",
+          "customBadgeTitle": "PLAYER PROFILE",
+          "customTeam": "home",
+          "hydrationTitle": "OFFICIAL COOLING BREAK",
+          "hydrationMinute": "23'",
+          "hydrationTemp": "32°C",
+          "hydrationDetail": "",
+          "hydrationBadgeTitle": "HYDRATION BREAK",
+          "substitution": {
+            "team": "home",
+            "teamName": "Barcelona",
+            "teamColor": "#dabe0b",
+            "playerOut": {
+              "name": "ter Stegen",
+              "number": 1
+            },
+            "playerIn": {
+              "name": "Ferran Torres",
+              "number": 12
+            }
+          },
+          "hydration": {
+            "title": "OFFICIAL COOLING BREAK",
+            "detail": "TEMPERATURE 32°C • 23' MINUTE",
+            "minute": "23'",
+            "badgeTitle": "HYDRATION BREAK",
+            "temp": "32°C"
+          },
+          "custom": {
+            "team": "home",
+            "teamName": "Barcelona",
+            "teamColor": "#dabe0b",
+            "playerName": "",
+            "customText": "",
+            "badgeTitle": "PLAYER PROFILE"
+          }
+        },
+        "playerSpotlight": {
+          "team": "home",
+          "playerId": "e8ea4b29-d0a1-4f7f-8649-9ddb43220526",
+          "playerName": "Robert Lewandowski",
+          "position": "ST",
+          "role": "outfield",
+          "goals": "3",
+          "assists": "1",
+          "shots": "2",
+          "saves": "0",
+          "conceded": "0",
+          "savePercentage": "0",
+          "rating": "8.5",
+          "playerImgUrl": "1785773231237-214561.png",
+          "xOffset": "0",
+          "yOffset": "-40",
+          "scale": "1",
+          "teamName": "Barcelona",
+          "teamShortName": "FCB",
+          "teamLogo": "1785260728884-36131.png",
+          "teamColor": "#dabe0b"
+        }
+      },
+      "createdAt": "2026-07-29T18:38:07.625Z",
+      "updatedAt": "2026-08-14T15:47:31.425Z"
+    },
+    {
+      "id": "2dfde95a-073d-4de2-8ebd-dd5daa18fa49",
+      "homeTeamId": "3575df51-6bbf-46f4-9cb0-3c2830dbd77d",
+      "awayTeamId": "778518f0-720d-4c2c-b49e-68fda9aac81e",
+      "tournamentId": "00913743-43a2-4b67-bdea-aa9501461605",
+      "sponsorIds": [
+        "a3b10e67-4ec9-4275-8845-c978d834b68a",
+        "20b203b8-9042-4039-850e-1ab0314a6242"
+      ],
+      "matchDate": "2026-08-01T22:02",
+      "status": "pending",
+      "graphics": {
+        "startScreen": null,
+        "tournament": null,
+        "sponsors": null,
+        "weather": null,
+        "lineup": null,
+        "scorebug": null,
+        "statistics": null,
+        "qrCode": null,
+        "lowerThird": null,
+        "notifications": null,
+        "playerSpotlight": null
+      },
+      "createdAt": "2026-07-29T19:03:13.131Z",
+      "updatedAt": "2026-08-05T18:34:23.005Z"
+    },
+    {
+      "id": "2fecf48e-0758-4aa8-90e0-cbbb4403c7e8",
+      "homeTeamId": "90fbe5d9-436b-4da3-965d-bf4e9c0fe70a",
+      "awayTeamId": "2d40ffa6-c123-4359-b478-d006b500a239",
+      "tournamentId": "db333f50-a3c0-44f5-ab2a-7d9b868c4d5a",
+      "sponsorIds": [
+        "a3b10e67-4ec9-4275-8845-c978d834b68a",
+        "20b203b8-9042-4039-850e-1ab0314a6242",
+        "2ff7af74-73d5-4f12-9c39-faa11249c83a",
+        "c73a9799-eee9-4812-aa0c-6f8deb2b7ddb",
+        "9d10dfd5-00c1-4dca-9b03-75467c5ab605",
+        "a45994ba-3a55-4c3c-ace2-7f04e7db8077"
+      ],
+      "matchDate": "2026-08-20T22:15",
+      "status": "pending",
+      "graphics": {
+        "startScreen": null,
+        "weather": {
+          "location": "Milan, Itali",
+          "temperature": 12,
+          "condition": "Cloudy",
+          "humidity": 15,
+          "windSpeed": 10,
+          "windDirection": "E",
+          "rainProbability": 80,
+          "pitchCondition": "Wet",
+          "xOffset": 0,
+          "yOffset": 0,
+          "scale": 1,
+          "isUpdate": false
+        },
+        "lineup": {
+          "home": {
+            "formation": "4-2-3-1",
+            "coachName": "perlo",
+            "starters": [
+              {
+                "id": "temp_1785951803191_lj9svswc7",
+                "name": "Yann Sommer",
+                "number": "1",
+                "position": "GK"
+              },
+              {
+                "id": "temp_1785951858032_g1u35uykr",
+                "name": "Benjamin Pavard",
+                "number": "2",
+                "position": "CB"
+              },
+              {
+                "id": "temp_1785951903575_59xuqui1r",
+                "name": "Francesco Acerbi",
+                "number": "2",
+                "position": "CB"
+              },
+              {
+                "id": "temp_1785951918568_q554bae2u",
+                "name": "Alessandro Bastoni",
+                "number": "4",
+                "position": "LB"
+              },
+              {
+                "id": "temp_1785951941215_yr0chtwdp",
+                "name": "Denzel Dumfries",
+                "number": "5",
+                "position": "RB"
+              },
+              {
+                "id": "temp_1785951964720_9ir0lxw5q",
+                "name": "Nicolò Barella",
+                "number": "6",
+                "position": "RWB"
+              },
+              {
+                "id": "temp_1785951979639_47vr7vv94",
+                "name": "Hakan Çalhanoğlu",
+                "number": "7",
+                "position": "DM"
+              },
+              {
+                "id": "temp_1785951996328_y5u3cy4k3",
+                "name": "Henrikh Mkhitaryan",
+                "number": "8",
+                "position": "CM"
+              },
+              {
+                "id": "temp_1785952012879_7zt5xltt0",
+                "name": "Federico Dimarco",
+                "number": "9",
+                "position": "AM"
+              },
+              {
+                "id": "temp_1785952028168_wtn77xww0",
+                "name": "Lautaro Martínez",
+                "number": "10",
+                "position": "ST"
+              },
+              {
+                "id": "temp_1785952043391_4v1wxrzqw",
+                "name": "Marcus Thuram",
+                "number": "11",
+                "position": "RW"
+              }
+            ],
+            "bench": [
+              {
+                "id": "temp_1785952498904_bp6yy5tp0",
+                "name": "Josep Martínez",
+                "number": "20",
+                "position": "RW"
+              },
+              {
+                "id": "temp_1785952513000_5gw6aqdhu",
+                "name": "Carlos Augusto",
+                "number": "23",
+                "position": "RW"
+              },
+              {
+                "id": "temp_1785952525737_wmihpjbc3",
+                "name": "Matteo Darmian",
+                "number": "24",
+                "position": "RW"
+              },
+              {
+                "id": "temp_1785952541704_odwcgvhzq",
+                "name": "Mehdi Taremi",
+                "number": "27",
+                "position": "CM"
+              }
+            ]
+          },
+          "away": {
+            "formation": "5-3-2",
+            "coachName": "Kaka",
+            "starters": [
+              {
+                "id": "temp_1785952066967_qx0my5lyp",
+                "name": "Mike Maignan",
+                "number": "1",
+                "position": "GK"
+              },
+              {
+                "id": "temp_1785952091984_ybjj71m4u",
+                "name": "Fikayo Tomori",
+                "number": "3",
+                "position": "CB"
+              },
+              {
+                "id": "temp_1785952124080_kgxf7pg8p",
+                "name": "Malick Thiaw",
+                "number": "5",
+                "position": "LB"
+              },
+              {
+                "id": "temp_1785952153434_57g1tsxlm",
+                "name": "Álex Jiménez",
+                "number": "6",
+                "position": "RB"
+              },
+              {
+                "id": "temp_1785952173263_813t6gj5j",
+                "name": "Youssouf Fofana",
+                "number": "7",
+                "position": "DM"
+              },
+              {
+                "id": "temp_1785952191680_b2kkwt61n",
+                "name": "Ruben Loftus-Cheek",
+                "number": "10",
+                "position": "ST"
+              },
+              {
+                "id": "temp_1785952368504_5kltjhnu7",
+                "name": "Luka Modrić",
+                "number": "14",
+                "position": "AM"
+              },
+              {
+                "id": "temp_1785952384384_vxloghwi0",
+                "name": "Pervis Estupiñán",
+                "number": "15",
+                "position": "CM"
+              },
+              {
+                "id": "temp_1785952402025_t7iv5mz11",
+                "name": "Strahinja Pavlović",
+                "number": "16",
+                "position": "DM"
+              },
+              {
+                "id": "temp_1785952417665_jq3a8mzem",
+                "name": "Yunus Musah",
+                "number": "17",
+                "position": "AM"
+              },
+              {
+                "id": "temp_1785952433136_a26sn5ypq",
+                "name": "Noah Okafor",
+                "number": "19",
+                "position": "ST"
+              }
+            ],
+            "bench": [
+              {
+                "id": "temp_1785952205856_o7xt7gemf",
+                "name": "Christian Pulisic",
+                "number": "9",
+                "position": "RW"
+              },
+              {
+                "id": "temp_1785952217889_5wqcp7lwe",
+                "name": "Rafael Leão",
+                "number": "12",
+                "position": "LW"
+              },
+              {
+                "id": "temp_1785952262433_38x16vfdx",
+                "name": "Santiago Giménez",
+                "number": "14",
+                "position": "ST"
+              },
+              {
+                "id": "temp_1785952305282_kf3ig6i4v",
+                "name": "Samuel Chukwueze",
+                "number": "10",
+                "position": "AM"
+              }
+            ]
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "scale": 1
+        },
+        "scorebug": null,
+        "notifications": null,
+        "playerSpotlight": {
+          "team": "away",
+          "playerId": "",
+          "playerName": "",
+          "position": "GK",
+          "role": "goalkeeper",
+          "goals": "2",
+          "assists": "1",
+          "shots": "5",
+          "saves": "8",
+          "conceded": "4",
+          "savePercentage": "22",
+          "rating": "7",
+          "playerImgUrl": "1785954570452-233408.png",
+          "xOffset": "20",
+          "yOffset": "20",
+          "scale": "1.2",
+          "teamName": "AS MIlan",
+          "teamShortName": "Asm",
+          "teamLogo": "1785780271916-591701.jpg",
+          "teamColor": "#ff0000"
+        },
+        "statistics": {
+          "period": "FULL TIME",
+          "stats": {
+            "goals": {
+              "home": 3,
+              "away": 2
+            },
+            "possession": {
+              "home": 63,
+              "away": 37
+            },
+            "shots": {
+              "home": 12,
+              "away": 5
+            },
+            "shotsOnTarget": {
+              "home": 8,
+              "away": 2
+            },
+            "corners": {
+              "home": 6,
+              "away": 5
+            },
+            "fouls": {
+              "home": 4,
+              "away": 3
+            },
+            "yellowCards": {
+              "home": 2,
+              "away": 2
+            },
+            "redCards": {
+              "home": 2,
+              "away": 2
+            },
+            "offsides": {
+              "home": 3,
+              "away": 3
+            },
+            "saves": {
+              "home": 2,
+              "away": 2
+            },
+            "passes": {
+              "home": 3,
+              "away": 2
+            }
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "scale": 1,
+          "isUpdate": false
+        },
+        "settings": null,
+        "qrCode": null,
+        "lowerThird": {
+          "title": "ASMilan",
+          "subtitle": "Mike Maignan, Davide Bartesaghi, Fikayo Tomori, Malick Thiaw, Álex Jiménez, Youssouf Fofana, Ruben Loftus-Cheek, Christian Pulisic, Rafael Leão, Santiago Giménez, Samuel Chukwueze",
+          "badge": "Statistics ",
+          "layout": "left",
+          "themeMode": "neutral",
+          "customColor": "#6366f1",
+          "yOffset": 50,
+          "xOffset": 0,
+          "scale": 1,
+          "speed": 1,
+          "resolvedColor": "#6366f1"
+        },
+        "positions": null,
+        "sponsors": {
+          "selectedSponsorIds": [
+            "a3b10e67-4ec9-4275-8845-c978d834b68a",
+            "20b203b8-9042-4039-850e-1ab0314a6242",
+            "2ff7af74-73d5-4f12-9c39-faa11249c83a",
+            "9d10dfd5-00c1-4dca-9b03-75467c5ab605",
+            "c73a9799-eee9-4812-aa0c-6f8deb2b7ddb",
+            "a45994ba-3a55-4c3c-ace2-7f04e7db8077"
+          ],
+          "xOffset": 0,
+          "yOffset": 0,
+          "scale": 1
+        }
+      },
+      "createdAt": "2026-08-05T17:39:23.376Z",
+      "updatedAt": "2026-08-06T19:32:02.653Z"
+    }
+  ]
+}

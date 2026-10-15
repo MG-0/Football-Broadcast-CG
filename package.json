@@ -1,0 +1,12 @@
+{
+  "name": "football-broadcast-cg",
+  "version": "1.0.0",
+  "description": "Football Broadcast CG System",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix dashboard install && npm --prefix dashboard run build && npm --prefix api install",
+    "start": "node api/app.js",
+    "dev:api": "npm --prefix api run dev",
+    "dev:dashboard": "npm --prefix dashboard run dev"
+  }
+}
