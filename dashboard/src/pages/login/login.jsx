@@ -198,6 +198,19 @@ export default function Login() {
             >
               {isLoading ? "Loading..." : "Login"}
             </button>
+
+            {/* Register link */}
+            <div className="pt-3 text-center border-t border-slate-800/80">
+              <p className="text-sm text-slate-400">
+                Don't have an account?{" "}
+                <Link
+                  to="/register"
+                  className="font-bold text-emerald-400 hover:text-emerald-300 transition duration-150"
+                >
+                  Create Account
+                </Link>
+              </p>
+            </div>
           </form>
         </div>
       </div>

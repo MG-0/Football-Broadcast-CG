@@ -5,7 +5,7 @@ const auth = require("../middleware/auth");
 const router = express.Router();
 
 // REGISTER USER---------
-// router.post("/register", usersControllers.register);
+router.post("/register", usersControllers.register);
 
 // LOGIN USER
 router.post("/login", usersControllers.login);

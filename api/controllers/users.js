@@ -3,56 +3,71 @@ try {
   bcrypt = require("bcrypt");
 } catch {}
 const jwt = require("jsonwebtoken");
-const { readData } = require("../utils/jsonDB");
+const crypto = require("crypto");
+const { readData, writeData } = require("../utils/jsonDB");
+
 // REGISTER USER---------
-// exports.register = async (req, res) => {
-//   try {
-//     const { email, password } = req.body;
+exports.register = async (req, res) => {
+  try {
+    const { email, password } = req.body;
 
-//     if (!email || !password) {
-//       return res
-//         .status(400)
-//         .json({ message: " Email and Password Are Required!" });
-//     }
+    if (!email || !password) {
+      return res
+        .status(400)
+        .json({ message: "Username and Password are required!" });
+    }
 
-//     const existingUser = await User.findOne({ email });
+    const database = readData("database");
+    if (!database.users) {
+      database.users = [];
+    }
 
-//     if (existingUser) {
-//       return res.status(409).json({ message: "User Already Exist" });
-//     }
+    const normalizedEmail = email.trim().toLowerCase();
+    const existingUser = database.users.find(
+      (u) => u.email?.trim().toLowerCase() === normalizedEmail,
+    );
 
-//     const hashedPassword = await bcrypt.hash(password, 10);
+    if (existingUser) {
+      return res.status(409).json({ message: "User already exists!" });
+    }
 
-//     const user = new User({
-//       email,
-//       password: hashedPassword,
-//     });
+    const hashedPassword = bcrypt
+      ? await bcrypt.hash(password, 10).catch(() => password)
+      : password;
 
-//     await user.save();
+    const newUser = {
+      id: crypto.randomUUID ? crypto.randomUUID() : String(Date.now()),
+      email: email.trim(),
+      password: hashedPassword,
+    };
 
-//     const token = jwt.sign(
-//       {
-//         email,
-//         id: user._id,
-//       },
-//       process.env.JWT_KEY,
-//       { expiresIn: "7d" },
-//     );
+    database.users.push(newUser);
+    writeData("database", database);
 
-//     res.cookie("token", token, {
-//       httpOnly: true,
-//       secure: process.env.NODE_ENV === "production",
-//       sameSite: "lax",
-//       maxAge: 7 * 24 * 60 * 60 * 1000,
-//     });
+    const secretKey = process.env.JWT_KEY || "broadcast_cg_default_secret_key";
+    const token = jwt.sign(
+      { email: newUser.email, id: newUser.id },
+      secretKey,
+      { expiresIn: "7d" },
+    );
 
-//     return res.status(201).json({ message: "User Created Successfully", user });
-//   } catch (error) {
-//     return res
-//       .status(500)
-//       .json({ message: "Created user is failed!", error: error.message });
-//   }
-// };
+    res.cookie("token", token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "lax",
+      maxAge: 7 * 24 * 60 * 60 * 1000,
+    });
+
+    return res.status(201).json({
+      message: "User Created Successfully",
+      user: { id: newUser.id, email: newUser.email },
+    });
+  } catch (error) {
+    return res
+      .status(500)
+      .json({ message: "Registration failed!", error: error.message });
+  }
+};
 
 
 
