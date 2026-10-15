@@ -1,4 +1,7 @@
-const bcrypt = require("bcrypt");
+let bcrypt = null;
+try {
+  bcrypt = require("bcrypt");
+} catch {}
 const jwt = require("jsonwebtoken");
 const { readData } = require("../utils/jsonDB");
 // REGISTER USER---------
@@ -79,7 +82,7 @@ exports.login = async (req, res) => {
 
     const isMatchedPassword =
       user.password === password ||
-      (await bcrypt.compare(password, user.password).catch(() => false));
+      (bcrypt ? await bcrypt.compare(password, user.password).catch(() => false) : false);
 
     if (!isMatchedPassword) {
       return res.status(401).json({ message: "incorrect password!" });

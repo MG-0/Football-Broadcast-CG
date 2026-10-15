@@ -1,11 +1,11 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "outputDirectory": "api/dist",
+  "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/routes/(.*)", "destination": "/api/app.js" },
-    { "source": "/users/(.*)", "destination": "/api/app.js" },
-    { "source": "/server-info", "destination": "/api/app.js" },
+    { "source": "/routes/(.*)", "destination": "/api/index.js" },
+    { "source": "/users/(.*)", "destination": "/api/index.js" },
+    { "source": "/server-info", "destination": "/api/index.js" },
     { "source": "/overlay-live/(.*)", "destination": "/overlay-live/$1" },
     { "source": "/uploads/(.*)", "destination": "/uploads/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
