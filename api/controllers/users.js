@@ -61,6 +61,7 @@ exports.register = async (req, res) => {
     return res.status(201).json({
       message: "User Created Successfully",
       user: { id: newUser.id, email: newUser.email },
+      token,
     });
   } catch (error) {
     return res
@@ -115,7 +116,7 @@ exports.login = async (req, res) => {
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
 
-    return res.status(200).json({ message: "User Login Successfully", user });
+    return res.status(200).json({ message: "User Login Successfully", user, token });
   } catch (error) {
     return res
       .status(500)

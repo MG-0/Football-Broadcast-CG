@@ -5,7 +5,14 @@ const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
   // track authenticated user state
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(() => {
+    try {
+      const saved = localStorage.getItem("user");
+      return saved ? JSON.parse(saved) : null;
+    } catch {
+      return null;
+    }
+  });
   // track loading state during authentication check
   const [loading, setLoading] = useState(true);
 
@@ -14,10 +21,21 @@ export function AuthProvider({ children }) {
   const checkAuth = async () => {
     try {
       const response = await api.get("users/me");
-
-      setUser(response.data.user);
+      if (response.data?.user) {
+        setUser(response.data.user);
+        localStorage.setItem("user", JSON.stringify(response.data.user));
+      }
     } catch {
-      setUser(null);
+      const saved = localStorage.getItem("user");
+      if (saved) {
+        try {
+          setUser(JSON.parse(saved));
+        } catch {
+          setUser(null);
+        }
+      } else {
+        setUser(null);
+      }
     } finally {
       setLoading(false);
     }
@@ -27,8 +45,22 @@ export function AuthProvider({ children }) {
   // authenticate user with login details and update state
   const login = async (data) => {
     const response = await api.post("users/login", data);
+    const userData = response.data?.user;
+    const token = response.data?.token;
 
-    await checkAuth();
+    if (token) {
+      localStorage.setItem("token", token);
+    }
+    if (userData) {
+      setUser(userData);
+      localStorage.setItem("user", JSON.stringify(userData));
+    }
+
+    try {
+      await checkAuth();
+    } catch (e) {
+      console.warn("checkAuth error after login:", e);
+    }
 
     return response.data;
   };
@@ -36,8 +68,12 @@ export function AuthProvider({ children }) {
   // LOGOUT
   // sign out the current user and reset auth state
   const logout = async () => {
-    await api.post("users/logout");
+    try {
+      await api.post("users/logout");
+    } catch {}
 
+    localStorage.removeItem("user");
+    localStorage.removeItem("token");
     setUser(null);
   };
 

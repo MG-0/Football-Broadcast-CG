@@ -1,14 +1,18 @@
 const jwt = require("jsonwebtoken");
 
 const auth = (req, res, next) => {
-  const token = req.cookies.token;
+  const token =
+    req.cookies?.token ||
+    req.headers?.authorization?.replace("Bearer ", "") ||
+    req.headers?.token;
 
   if (!token) {
     return res.status(401).json({ message: "Unauthorized" });
   }
 
   try {
-    const decoded = jwt.verify(token, process.env.JWT_KEY);
+    const secretKey = process.env.JWT_KEY || "broadcast_cg_default_secret_key";
+    const decoded = jwt.verify(token, secretKey);
 
     req.user = decoded;
     next();
