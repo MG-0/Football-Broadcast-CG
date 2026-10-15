@@ -1,5 +1,6 @@
 const crypto = require("crypto");
 const { readData, writeData } = require("../utils/jsonDB");
+const { getUserFromReq } = require("../middleware/auth");
 const WriteQueue = require("../utils/writeQueue");
 const {
   normalizeText,
@@ -632,8 +633,14 @@ exports.createMatch = async (req, res) => {
         };
       }
 
+      const user = getUserFromReq(req) || req.user;
+      const userId = user?.id || "1";
+      const userEmail = user?.email || "admin";
+
       const newMatch = {
         id: crypto.randomUUID(),
+        userId,
+        userEmail,
         homeTeamId,
         awayTeamId,
         tournamentId,
@@ -684,20 +691,37 @@ exports.createMatch = async (req, res) => {
 exports.getAllMatches = async (req, res) => {
   try {
     const database = readData("database");
+    const user = getUserFromReq(req);
 
-    if (database.matches.length === 0) {
-      return res
-        .status(200)
-        .json({ message: "Matches Not Found!", matches: [] });
+    const allMatches = database.matches || [];
+
+    let matches = allMatches;
+    if (user) {
+      const isDefaultAdmin =
+        user.id === "1" ||
+        user.email?.trim().toLowerCase() === "admin" ||
+        user.email?.trim().toLowerCase() === "admin@ftbroadcast.com";
+
+      matches = allMatches.filter((match) => {
+        if (match.userId) {
+          return (
+            match.userId === user.id ||
+            match.userEmail?.trim().toLowerCase() ===
+              user.email?.trim().toLowerCase()
+          );
+        }
+        // Initial legacy matches without userId belong to the default admin account
+        return isDefaultAdmin;
+      });
     }
 
     return res.status(200).json({
-      message: " All Matches is Fetched Successfully",
-      matches: database.matches,
+      message: "All Matches Fetched Successfully",
+      matches,
     });
   } catch (error) {
     return res.status(500).json({
-      message: "Failed to fetch Tournaments.",
+      message: "Failed to fetch matches.",
       error: error.message,
     });
   }
