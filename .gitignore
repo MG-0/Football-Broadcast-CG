@@ -9,8 +9,8 @@ api/.env
 
 # Build outputs
 dashboard/dist/
-api/dist/
-dist/
+/dist/
+!api/dist/
 
 # System files
 .DS_Store
