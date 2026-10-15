@@ -1,3 +1,12 @@
+---
+title: Football Broadcast CG
+emoji: ⚽
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+---
+
 # Football Broadcast Graphics Control System (CG)
 
 A real-time broadcast Character Generator (CG) and control system for football matches. This system allows producers to configure, preview, and trigger dynamic live broadcast graphic overlays (lower thirds, scorebugs, lineups, tactical configurations, sponsorships, etc.) directly onto a live video stream using software like OBS Studio, vMix, or any browser-based broadcast interface.
